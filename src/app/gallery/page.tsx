@@ -1,0 +1,1 @@
+import {SimpleContent} from '@/components/Pages';export default function Page(){return <SimpleContent kind="gallery"/>}

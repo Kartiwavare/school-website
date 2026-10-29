@@ -1,0 +1,37 @@
+export const school = {
+ nameEn: 'Residential Highschool & Junior College of Science, Shevgaon',
+ nameMr: 'रेसिडेन्शियल हायस्कूल व उच्च माध्यमिक विद्यालय शेवगाव.',
+ addressEn: 'Miri Road, Shevgaon, Tal. Shevgaon, Dist. Ahilyanagar, Maharashtra 414502',
+ addressMr: 'मिरी रोड, शेवगाव, ता. शेवगाव, जि. अहिल्यानगर, महाराष्ट्र ४१४५०२',
+ email: 'rhshevgaon60@gmail.com', phone: '9359052561', principalEn: 'Shri. Gaikwad Sir', principalMr: 'श्री. गायकवाड सर',
+ established: '1960', students: '3000', teachers: '70', udise: '27261109023',
+ // School-provided grades and staffing; public school datasets differ. See README.
+ gradesEn: '1st to 12th (school-provided)', gradesMr: 'इयत्ता १ ली ते १२ वी (शाळेकडून दिलेली माहिती)',
+};
+export type Lang = 'en' | 'mr';
+export const messages = {
+ en: {
+ nav:['Home','About Us','Academics','Our Team','Notices','Gallery','Contact'], quick:'Quick Links', search:'Search pages', searchPlaceholder:'Search the website...', noResults:'No matching pages',
+ heroEyebrow:'LEARN • GROW • BELONG', heroFirst:'Building Brighter', heroSecond:'Futures Together', heroText:'Learning, values and opportunity since 1960. A welcoming place to grow through school and higher-secondary education.', explore:'Explore Our School', viewNotices:'View Notices',
+ stats:['Students','Teachers','Years of learning','State Board'], introKicker:'WELCOME TO OUR SCHOOL', introTitle:'A legacy of learning since 1960', introText:'Residential Highschool & Junior College of Science serves the Shevgaon community with secondary and higher-secondary education. We value curiosity, discipline, respect and opportunity for every learner.',
+ aboutEyebrow:'ABOUT OUR SCHOOL', aboutTitleA:'Explore Our', aboutTitleB:'School', aboutIntro:'Discover our school, its history, learning environment and the opportunities we offer to students in Shevgaon.', history:'Our Story', historyTitle:'Rooted in Shevgaon since 1960', historyText:'Established in 1960, Residential High Shevgaon has served generations of learners. Public school-directory records list higher-secondary recognition in 1975. Our school continues its educational journey with a science junior-college stream.',
+ highlights:'School at a glance', founded:'Established', principal:'Principal', classes:'Classes', medium:'Medium', mediumValue:'Marathi and English (school-provided)', board:'Board', boardValue:'Maharashtra State Board', stream:'Junior college stream', science:'Science', udise:'UDISE Code',
+ academics:'Academics', academicsDesc:'Secondary and higher-secondary learning, with a Science stream at junior-college level.', team:'Our Team', teamDesc:'Meet the educators supporting students every day.', notices:'Latest Notices', noticesDesc:'School announcements will be published here when provided.', gallery:'Gallery', galleryDesc:'A glimpse of the learning environment.',
+ facilities:'Our Facilities', facilityNames:['Library','Science laboratory','Computer laboratory','Playground','Smart classrooms'], facilityDesc:['Books and reading','Hands-on science','Digital learning','Sports and activities','Technology-supported teaching'],
+ vision:'Our Commitment', visionText:'We aim to provide an encouraging learning environment where students can develop knowledge, confidence and strong values. This is website editorial copy, not an official school mission statement.',
+ contact:'Contact Our School', contactIntro:'For admissions and school-related questions, contact the school office.', address:'Address', phone:'Phone', email:'Email', noNotice:'No official notices have been published yet.', close:'Close', admin:'Content Manager (Demo)', adminNote:'This demo stores notices in this browser only. It is not a secure, shared administration system.', noticeTitle:'Notice title', noticeBody:'Notice details', addNotice:'Save notice in this browser', delete:'Delete', published:'School Notices',
+ illustration:'', aboutMore:'Read our story', language:'Language', sourceNote:' comes from public school directories; student and teacher figures were supplied by the school.', back:'Back to home', footer:'Knowledge • Discipline • Progress', empty:'No notices yet',
+ },
+ mr: {
+ nav:['मुख्यपृष्ठ','आमच्याबद्दल','शैक्षणिक माहिती','आमचा संघ','सूचना','छायाचित्रे','संपर्क'], quick:'महत्त्वाचे दुवे', search:'पृष्ठ शोधा', searchPlaceholder:'संकेतस्थळावर शोधा...', noResults:'जुळणारे पृष्ठ सापडले नाही',
+ heroEyebrow:'शिका • वाढा • घडवा', heroFirst:'उज्ज्वल भविष्याची', heroSecond:'एकत्र घडण', heroText:'१९६० पासून शिक्षण, संस्कार आणि संधी. शालेय व उच्च माध्यमिक शिक्षणासाठी विद्यार्थ्यांना प्रोत्साहन देणारे वातावरण.', explore:'आमची शाळा पाहा', viewNotices:'सूचना पाहा',
+ stats:['विद्यार्थी','शिक्षक','शिक्षणाची वर्षे','राज्य मंडळ'], introKicker:'आमच्या शाळेत स्वागत आहे', introTitle:'१९६० पासून शिक्षणाची परंपरा', introText:'रेसिडेन्शियल हायस्कूल व उच्च माध्यमिक विद्यालय शेवगाव येथे माध्यमिक व उच्च माध्यमिक शिक्षण दिले जाते. जिज्ञासा, शिस्त, आदर आणि प्रत्येक विद्यार्थ्याच्या प्रगतीला आम्ही महत्त्व देतो.',
+ aboutEyebrow:'आमच्या शाळेविषयी', aboutTitleA:'जाणून घ्या', aboutTitleB:'आमची शाळा', aboutIntro:'शेवगावमधील आमच्या शाळेचा इतिहास, शिक्षणाचे वातावरण आणि विद्यार्थ्यांसाठी उपलब्ध संधी जाणून घ्या.', history:'आमचा इतिहास', historyTitle:'१९६० पासून शेवगावशी नाते', historyText:'१९६० मध्ये स्थापन झालेल्या या शाळेने अनेक पिढ्यांना शिक्षण दिले आहे. सार्वजनिक शालेय नोंदींनुसार १९७५ मध्ये उच्च माध्यमिक स्तराला मान्यता मिळाली. विज्ञान शाखेसह शाळेची शैक्षणिक वाटचाल सुरू आहे.',
+ highlights:'शाळेची माहिती', founded:'स्थापना', principal:'मुख्याध्यापक', classes:'इयत्ता', medium:'शिक्षणाचे माध्यम', mediumValue:'मराठी व इंग्रजी (शाळेकडून दिलेली माहिती)', board:'शिक्षण मंडळ', boardValue:'महाराष्ट्र राज्य मंडळ', stream:'कनिष्ठ महाविद्यालय शाखा', science:'विज्ञान', udise:'यू-डायस क्रमांक',
+ academics:'शैक्षणिक माहिती', academicsDesc:'माध्यमिक व उच्च माध्यमिक शिक्षण आणि कनिष्ठ महाविद्यालयात विज्ञान शाखा.', team:'आमचा संघ', teamDesc:'विद्यार्थ्यांना मार्गदर्शन करणाऱ्या शिक्षकांची ओळख.', notices:'ताज्या सूचना', noticesDesc:'शाळेकडून माहिती मिळाल्यावर येथे सूचना प्रसिद्ध केल्या जातील.', gallery:'छायाचित्रे', galleryDesc:'शैक्षणिक वातावरणाची झलक.',
+ facilities:'आमच्या सुविधा', facilityNames:['ग्रंथालय','विज्ञान प्रयोगशाळा','संगणक प्रयोगशाळा','खेळाचे मैदान','स्मार्ट वर्गखोल्या'], facilityDesc:['पुस्तके आणि वाचन','प्रयोगाधारित विज्ञान','डिजिटल शिक्षण','खेळ आणि उपक्रम','तंत्रज्ञानाधारित अध्यापन'],
+ vision:'आमची बांधिलकी', visionText:'विद्यार्थ्यांमध्ये ज्ञान, आत्मविश्वास आणि चांगली मूल्ये विकसित होण्यासाठी प्रोत्साहनपर वातावरण देण्याचा आमचा प्रयत्न आहे. हा संकेतस्थळासाठी तयार केलेला मजकूर आहे; शाळेचे अधिकृत ध्येयवाक्य नाही.',
+ contact:'शाळेशी संपर्क साधा', contactIntro:'प्रवेश व शाळेसंबंधी माहितीसाठी कार्यालयाशी संपर्क साधा.', address:'पत्ता', phone:'दूरध्वनी', email:'ई-मेल', noNotice:'अद्याप कोणतीही अधिकृत सूचना प्रकाशित केलेली नाही.', close:'बंद करा', admin:'सामग्री व्यवस्थापन (प्रात्यक्षिक)', adminNote:'या प्रात्यक्षिकातील सूचना फक्त याच ब्राउझरमध्ये साठवल्या जातात. ही सुरक्षित, सामायिक प्रशासकीय प्रणाली नाही.', noticeTitle:'सूचनेचे शीर्षक', noticeBody:'सूचनेचा तपशील', addNotice:'या ब्राउझरमध्ये सूचना जतन करा', delete:'काढून टाका', published:'शाळेच्या सूचना',
+ illustration:'', aboutMore:'आमचा इतिहास वाचा', language:'भाषा', sourceNote:'काही ऐतिहासिक माहिती सार्वजनिक शालेय नोंदींवर आधारित आहे; विद्यार्थी व शिक्षकांची संख्या शाळेकडून दिली आहे.', back:'मुख्यपृष्ठावर जा', footer:'ज्ञान • शिस्त • प्रगती', empty:'अद्याप सूचना नाहीत',
+ }
+} as const;
